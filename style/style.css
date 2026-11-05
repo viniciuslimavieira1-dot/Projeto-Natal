@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #1f2937;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: darkgoldenrod;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-color: #a8201a;
+    color: white;
+    padding: 40px 0;
+}
+
+.cabecalho h1 {
+    color: #ffd700;
+}
+
+.etiqueta {
+    margin-bottom: 10px;
+    color: #93c5fd;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitulo {
+    max-width: 700px;
+    margin-bottom: 25px;
+    color: #f4f7fb;
+}
+
+.menu-list {
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-list li {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: white;
+    color: #1f2937;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    background-color: #006400;
+    color: white;
+    border-color: #006400;
+}
+
+.menu-principal {
+    margin: 0 auto;
+}
+
+.secao-banner {
+    background-image: url('../img/natal.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 60px 20px;
+}
+
+.grade-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.caixa-texto {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    max-width: 850px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 35px;
+    border-radius: 10px;
+    border: 2px solid darkgoldenrod;
+    text-align: center;
+}
+
+.caixa-texto h1 {
+    color: #ffd700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.caixa-texto p {
+    color: #f4f7fb;
+    text-align: justify;
+    margin: 0;
+}
+
+.tabela-estilizada {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    color: white;
+}
+
+.tabela-estilizada th, 
+.tabela-estilizada td {
+    padding: 10px;
+    border: 1px solid darkgoldenrod;
+    text-align: left;
+}
+
+.tabela-estilizada th {
+    background-color: rgba(168, 32, 26, 0.8);
+    color: #ffd700;
+}
+
+.caixa-formulario {
+    text-align: left;
+}
+
+.grupo-fieldset {
+    border: 1px solid rgba(218, 165, 32, 0.4);
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.grupo-fieldset legend {
+    color: #ffd700;
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.form-cardapio {
+    margin-top: 15px;
+}
+
+.campo-grupo {
+    margin-bottom: 15px;
+}
+
+.campo-grupo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffd700;
+    font-size: 14px;
+}
+
+.campo-grupo input, 
+.campo-grupo select,
+.campo-grupo textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid darkgoldenrod;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #1f2937;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.campo-grupo textarea {
+    resize: vertical;
+}
+
+.botoes-acao {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botao-enviar, 
+.botao-limpar {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botao-enviar {
+    background-color: #ffd700;
+    color: #1f2937;
+}
+
+.botao-enviar:hover {
+    background-color: #e6c200;
+}
+
+.botao-limpar {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.botao-limpar:hover {
+    background-color: #d1d5db;
+}
+
+.rodape {
+    margin-top: 0;
+    padding: 25px;
+    background-color: #006400;
+    color: white;
+    text-align: center;
+}
+
+.rodape a {
+    color: #ffd700;
+    text-decoration: none;
+}
